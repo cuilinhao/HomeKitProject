@@ -1,0 +1,395 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		70E0607521A2FE1600A302CA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 70E0607421A2FE1600A302CA /* AppDelegate.m */; };
+		70E0607821A2FE1600A302CA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70E0607721A2FE1600A302CA /* ViewController.m */; };
+		70E0607B21A2FE1600A302CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70E0607921A2FE1600A302CA /* Main.storyboard */; };
+		70E0607D21A2FE1600A302CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70E0607C21A2FE1600A302CA /* Assets.xcassets */; };
+		70E0608021A2FE1600A302CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70E0607E21A2FE1600A302CA /* LaunchScreen.storyboard */; };
+		70E0608321A2FE1600A302CA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 70E0608221A2FE1600A302CA /* main.m */; };
+		70E0608B21A2FE4E00A302CA /* MOBHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70E0608A21A2FE4E00A302CA /* MOBHomeViewController.m */; };
+		70E0608E21A2FE5C00A302CA /* MOBRoomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70E0608D21A2FE5C00A302CA /* MOBRoomViewController.m */; };
+		70E0609121A300EF00A302CA /* MOBCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 70E0609021A300EF00A302CA /* MOBCollectionViewCell.m */; };
+		70E0609421A301D300A302CA /* MOBHomeKitManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 70E0609221A301D200A302CA /* MOBHomeKitManager.m */; };
+		70E0609821A304C100A302CA /* HomeKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70E0609721A304C100A302CA /* HomeKit.framework */; };
+		70E0609B21A43CE400A302CA /* MOBAccessoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70E0609A21A43CE400A302CA /* MOBAccessoryViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		70E0607021A2FE1500A302CA /* TETETE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TETETE.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		70E0607321A2FE1500A302CA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		70E0607421A2FE1600A302CA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		70E0607621A2FE1600A302CA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		70E0607721A2FE1600A302CA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		70E0607A21A2FE1600A302CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		70E0607C21A2FE1600A302CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		70E0607F21A2FE1600A302CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		70E0608121A2FE1600A302CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70E0608221A2FE1600A302CA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		70E0608921A2FE4E00A302CA /* MOBHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MOBHomeViewController.h; sourceTree = "<group>"; };
+		70E0608A21A2FE4E00A302CA /* MOBHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MOBHomeViewController.m; sourceTree = "<group>"; };
+		70E0608C21A2FE5C00A302CA /* MOBRoomViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MOBRoomViewController.h; sourceTree = "<group>"; };
+		70E0608D21A2FE5C00A302CA /* MOBRoomViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MOBRoomViewController.m; sourceTree = "<group>"; };
+		70E0608F21A300EF00A302CA /* MOBCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOBCollectionViewCell.h; sourceTree = "<group>"; };
+		70E0609021A300EF00A302CA /* MOBCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOBCollectionViewCell.m; sourceTree = "<group>"; };
+		70E0609221A301D200A302CA /* MOBHomeKitManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOBHomeKitManager.m; sourceTree = "<group>"; };
+		70E0609321A301D200A302CA /* MOBHomeKitManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOBHomeKitManager.h; sourceTree = "<group>"; };
+		70E0609521A304C100A302CA /* TETETE.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TETETE.entitlements; sourceTree = "<group>"; };
+		70E0609721A304C100A302CA /* HomeKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HomeKit.framework; path = System/Library/Frameworks/HomeKit.framework; sourceTree = SDKROOT; };
+		70E0609921A43CE400A302CA /* MOBAccessoryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MOBAccessoryViewController.h; sourceTree = "<group>"; };
+		70E0609A21A43CE400A302CA /* MOBAccessoryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MOBAccessoryViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		70E0606D21A2FE1500A302CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70E0609821A304C100A302CA /* HomeKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		70E0606721A2FE1500A302CA = {
+			isa = PBXGroup;
+			children = (
+				70E0607221A2FE1500A302CA /* TETETE */,
+				70E0607121A2FE1500A302CA /* Products */,
+				70E0609621A304C100A302CA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		70E0607121A2FE1500A302CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				70E0607021A2FE1500A302CA /* TETETE.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		70E0607221A2FE1500A302CA /* TETETE */ = {
+			isa = PBXGroup;
+			children = (
+				70E0609521A304C100A302CA /* TETETE.entitlements */,
+				70E0609321A301D200A302CA /* MOBHomeKitManager.h */,
+				70E0609221A301D200A302CA /* MOBHomeKitManager.m */,
+				70E0608F21A300EF00A302CA /* MOBCollectionViewCell.h */,
+				70E0609021A300EF00A302CA /* MOBCollectionViewCell.m */,
+				70E0607321A2FE1500A302CA /* AppDelegate.h */,
+				70E0607421A2FE1600A302CA /* AppDelegate.m */,
+				70E0607621A2FE1600A302CA /* ViewController.h */,
+				70E0607721A2FE1600A302CA /* ViewController.m */,
+				70E0608921A2FE4E00A302CA /* MOBHomeViewController.h */,
+				70E0608A21A2FE4E00A302CA /* MOBHomeViewController.m */,
+				70E0608C21A2FE5C00A302CA /* MOBRoomViewController.h */,
+				70E0608D21A2FE5C00A302CA /* MOBRoomViewController.m */,
+				70E0609921A43CE400A302CA /* MOBAccessoryViewController.h */,
+				70E0609A21A43CE400A302CA /* MOBAccessoryViewController.m */,
+				70E0607921A2FE1600A302CA /* Main.storyboard */,
+				70E0607C21A2FE1600A302CA /* Assets.xcassets */,
+				70E0607E21A2FE1600A302CA /* LaunchScreen.storyboard */,
+				70E0608121A2FE1600A302CA /* Info.plist */,
+				70E0608221A2FE1600A302CA /* main.m */,
+			);
+			path = TETETE;
+			sourceTree = "<group>";
+		};
+		70E0609621A304C100A302CA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				70E0609721A304C100A302CA /* HomeKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		70E0606F21A2FE1500A302CA /* TETETE */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70E0608621A2FE1600A302CA /* Build configuration list for PBXNativeTarget "TETETE" */;
+			buildPhases = (
+				70E0606C21A2FE1500A302CA /* Sources */,
+				70E0606D21A2FE1500A302CA /* Frameworks */,
+				70E0606E21A2FE1500A302CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TETETE;
+			productName = TETETE;
+			productReference = 70E0607021A2FE1500A302CA /* TETETE.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		70E0606821A2FE1500A302CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "崔林豪";
+				TargetAttributes = {
+					70E0606F21A2FE1500A302CA = {
+						CreatedOnToolsVersion = 10.0;
+						SystemCapabilities = {
+							com.apple.HomeKit = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 70E0606B21A2FE1500A302CA /* Build configuration list for PBXProject "TETETE" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 70E0606721A2FE1500A302CA;
+			productRefGroup = 70E0607121A2FE1500A302CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				70E0606F21A2FE1500A302CA /* TETETE */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		70E0606E21A2FE1500A302CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70E0608021A2FE1600A302CA /* LaunchScreen.storyboard in Resources */,
+				70E0607D21A2FE1600A302CA /* Assets.xcassets in Resources */,
+				70E0607B21A2FE1600A302CA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		70E0606C21A2FE1500A302CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70E0609B21A43CE400A302CA /* MOBAccessoryViewController.m in Sources */,
+				70E0608E21A2FE5C00A302CA /* MOBRoomViewController.m in Sources */,
+				70E0609121A300EF00A302CA /* MOBCollectionViewCell.m in Sources */,
+				70E0608B21A2FE4E00A302CA /* MOBHomeViewController.m in Sources */,
+				70E0607821A2FE1600A302CA /* ViewController.m in Sources */,
+				70E0608321A2FE1600A302CA /* main.m in Sources */,
+				70E0607521A2FE1600A302CA /* AppDelegate.m in Sources */,
+				70E0609421A301D300A302CA /* MOBHomeKitManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		70E0607921A2FE1600A302CA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				70E0607A21A2FE1600A302CA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		70E0607E21A2FE1600A302CA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				70E0607F21A2FE1600A302CA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		70E0608421A2FE1600A302CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		70E0608521A2FE1600A302CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		70E0608721A2FE1600A302CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = TETETE/TETETE.entitlements;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = Q87QUX3533;
+				INFOPLIST_FILE = TETETE/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mob.hoemkit.test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = HomeKitTestDev;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		70E0608821A2FE1600A302CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = TETETE/TETETE.entitlements;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = Q87QUX3533;
+				INFOPLIST_FILE = TETETE/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mob.hoemkit.test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = HomeKitTestDev;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		70E0606B21A2FE1500A302CA /* Build configuration list for PBXProject "TETETE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70E0608421A2FE1600A302CA /* Debug */,
+				70E0608521A2FE1600A302CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70E0608621A2FE1600A302CA /* Build configuration list for PBXNativeTarget "TETETE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70E0608721A2FE1600A302CA /* Debug */,
+				70E0608821A2FE1600A302CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 70E0606821A2FE1500A302CA /* Project object */;
+}
