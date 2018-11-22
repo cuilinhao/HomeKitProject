@@ -57,12 +57,23 @@
         NSLog(@"------查看home---%@", @(home.primary).stringValue);
     }
     
+    //-----
+    // Send a notification to the other objects
+    [[NSNotificationCenter defaultCenter] postNotificationName:@"UpdateHomesNotification" object:self];
+    
+    
 }
 
 - (void)homeManagerDidUpdatePrimaryHome:(HMHomeManager *)manager
 {
     NSLog(@"--已经更新了primaryhome： %@", manager.primaryHome);
+    
+    //----
+    // Send a notification to the other objects
+    [[NSNotificationCenter defaultCenter] postNotificationName:@"UpdatePrimaryHomeNotification" object:self];
+    
 }
+
 
 - (void)homeManager:(HMHomeManager *)manager didAddHome:(HMHome *)home
 {

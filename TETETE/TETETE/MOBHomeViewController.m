@@ -46,6 +46,29 @@
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(_getHomesNotify) name:@"getHomes" object:nil];
  
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(_updateRoom:) name:@"removeRoom" object:nil];
+    
+    //-----
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(updateHomes:) name:@"UpdateHomesNotification" object:nil];
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(updatePrimaryHome:) name:@"UpdatePrimaryHomeNotification"  object:nil];
+
+    
+}
+
+
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
+{
+    
+}
+
+//MARK:- 更新home
+- (void)updateHomes:(id)info
+{
+    NSLog(@"-----更新了home");
+}
+
+- (void)updatePrimaryHome:(id)info
+{
+    NSLog(@"-----更新了home--PrimaryHome");
 }
 
 - (void)_updateRoom:(NSNotification *)info
@@ -131,7 +154,6 @@
         [homeListAlert addAction:action1];
         [self presentViewController:homeListAlert animated:YES completion:nil];
         
-        
     }
 }
 
@@ -189,6 +211,7 @@
 
 - (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath
 {
+    
     
     if (indexPath.row < self.roomArray.count)
     {

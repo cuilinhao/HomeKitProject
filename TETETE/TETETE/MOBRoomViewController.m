@@ -154,6 +154,18 @@
         }
         
     }];
+    
+    /*
+     为home 添加一个accessory
+     
+     */
+    [self.currentHome addAccessory:accessory completionHandler:^(NSError * _Nullable error) {
+        
+    }];
+    
+    //self.currentHome.accessories;
+    //self.currentRoom.accessories;
+    
 }
 
 //MARK:- 移除Accessory
