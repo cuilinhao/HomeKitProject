@@ -104,13 +104,14 @@
 
 
 
+#pragma mark -添加用户 delegate
 - (void)home:(HMHome *)home didAddUser:(HMUser *)user{
     
-    NSLog(@"已经添加用户");
+    NSLog(@">>>>>>>>>已经添加用户");
     
 }
 - (void)home:(HMHome *)home didRemoveUser:(HMUser *)user{
-    NSLog(@"已经移除了用户");
+    NSLog(@">>>>>>>>>已经移除了用户");
     
     
 }
